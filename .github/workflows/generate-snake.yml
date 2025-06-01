@@ -2,13 +2,17 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # كل يوم الساعة 12 صباحًا
-  workflow_dispatch: # تشغيل يدوي
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
       - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
