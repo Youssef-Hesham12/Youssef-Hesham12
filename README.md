@@ -56,7 +56,9 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Youssef-Hesham12/Youssef-Hesham12/output/snake.svg" alt="Snake animation" />
+
+<img src="https://raw.githubusercontent.com/Youssef-Hesham12/Youssef-Hesham12/main/assets/snake.svg" alt="Snake animation" />
+
 
 ###
 
